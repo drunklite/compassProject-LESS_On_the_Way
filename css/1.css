@@ -1,0 +1,19 @@
+/*notes*/
+.widget.widget_recent_entries {
+  background-color: white;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+.widget.widget_recent_entries ul li a {
+  color: 4px;
+}
+.widget.widget_recent_entries.widget_recent_comments {
+  background-color: black;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+.widget.widget_recent_entries.widget_recent_comments ul li a {
+  color: #ffff00 0;
+}

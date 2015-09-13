@@ -1,0 +1,39 @@
+/*notes*/
+
+// Varibles
+@widget-recent-posts-border-radius: 4px;
+@widget-recent-posts-background-color: white;
+@widget-recent-posts-link-color: @blue;
+
+@widget-recent-comments-border-radius: 8px;
+@widget-recent-comments-background-color: black;
+@widget-recent-comments-link-color: @red;
+
+// Colors
+@blue: #0000ff;
+@red: #ff000;
+
+// Mixins
+.border-radius (@radius: 4px){
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	}
+	
+// Widgets
+.widget {
+	&.widget_recent_entries {
+		background-color: @widget-recent-posts-background-color;
+		.border-radius(@widget-recent-posts-border-radius);
+		ul li a{
+			color: @widget-recent-posts-border-radius;
+			}
+	&.widget_recent_comments {
+		background-color:@widget-recent-comments-background-color;
+		.border-radius(@widget-recent-comments-border-radius);
+		ul li a{
+			color: @widget-recent-comments-link-color;
+				}
+			}
+		}
+	}
