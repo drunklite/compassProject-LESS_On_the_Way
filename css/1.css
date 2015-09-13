@@ -17,3 +17,6 @@
 .widget.widget_recent_entries.widget_recent_comments ul li a {
   color: #ffff00 0;
 }
+.back {
+  color: red;
+}
